@@ -5669,7 +5669,7 @@ indent = { tab-width = 4, unit = "    " }
 
 [[grammar]]
 name = "sysml"
-source = { git = "https://github.com/Open-MBEE/tree-sitter-sysml", rev = "49f444309aad8167e8691b36a491baa3fb4ebe54", subpath = "sysml" }
+source = { git = "https://github.com/Open-MBEE/tree-sitter-sysml", rev = "42dfd19c3ca0bc07df088f092c650fc9086edfb3", subpath = "sysml" }
 
 [[language]]
 name = "kerml"
@@ -5683,4 +5683,4 @@ indent = { tab-width = 4, unit = "    " }
 
 [[grammar]]
 name = "kerml"
-source = { git = "https://github.com/Open-MBEE/tree-sitter-sysml", rev = "49f444309aad8167e8691b36a491baa3fb4ebe54", subpath = "kerml" }
+source = { git = "https://github.com/Open-MBEE/tree-sitter-sysml", rev = "42dfd19c3ca0bc07df088f092c650fc9086edfb3", subpath = "kerml" }

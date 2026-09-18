@@ -31,7 +31,7 @@
 (unrestricted_name) @variable
 
 (qualified_name
-  (identifier) @namespace
+  (_) @namespace
   "::")
 
 (qualified_name
@@ -162,21 +162,21 @@
   name: (qualified_name (_) @variable.parameter .))
 
 (feature_chain_expression
-  feature: (qualified_name (identifier) @variable.other.member .))
+  feature: (qualified_name (_) @variable.other.member .))
 
 (feature_chain
-  (qualified_name (identifier) @variable.other.member .))
+  (qualified_name (_) @variable.other.member .))
 
 ; Calls
 
 (invocation_expression
-  function: (qualified_name (identifier) @function .))
+  function: (qualified_name (_) @function .))
 
 (invocation_expression
-  function: (feature_chain_expression feature: (qualified_name (identifier) @function .)))
+  function: (feature_chain_expression feature: (qualified_name (_) @function .)))
 
 (arrow_expression
-  function: (qualified_name (identifier) @function .))
+  function: (qualified_name (_) @function .))
 
 ; Operators
 

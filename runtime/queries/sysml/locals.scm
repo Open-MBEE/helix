@@ -77,7 +77,7 @@
 
 ; References
 
-(qualified_name (identifier) @local.reference)
+(qualified_name [(identifier) (unrestricted_name)] @local.reference)
 
 ; Named arguments are parameter names, not variable references.
-(named_argument name: (qualified_name (identifier) @_))
+(named_argument name: (qualified_name [(identifier) (unrestricted_name)] @_))
