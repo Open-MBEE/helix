@@ -5667,6 +5667,10 @@ block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "sysml-lsp" ]
 indent = { tab-width = 4, unit = "    " }
 
+[[grammar]]
+name = "sysml"
+source = { git = "https://github.com/Open-MBEE/tree-sitter-sysml", rev = "49f444309aad8167e8691b36a491baa3fb4ebe54", subpath = "sysml" }
+
 [[language]]
 name = "kerml"
 scope = "source.kerml"
@@ -5676,3 +5680,7 @@ comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "sysml-lsp" ]
 indent = { tab-width = 4, unit = "    " }
+
+[[grammar]]
+name = "kerml"
+source = { git = "https://github.com/Open-MBEE/tree-sitter-sysml", rev = "49f444309aad8167e8691b36a491baa3fb4ebe54", subpath = "kerml" }
